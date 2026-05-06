@@ -3,6 +3,7 @@ function mostrar(){
     var cor = document.getElementById("i2").value;
     var data = document.getElementById("i3").value; 
     var check = document.getElementById("i4").checked;
+    var printDiv = document.getElementById("print") ;
 
     var printTexto = document.getElementById("printTexto") ;
     var printCor = document.getElementById("printCor") ;
@@ -17,6 +18,10 @@ function mostrar(){
     printData.innerHTML = `a data digitada foi: ${data}`;
 
     printCheck.innerHTML = `Você escolheu: ${check}`;
+    printDiv.style.display = "block"; 
+    printDiv.style.backgroundColor = cor; 
+    
+    
 
     
 }
