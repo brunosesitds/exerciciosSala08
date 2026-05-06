@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prints de inputs</title>
+    <link rel="stylesheet" href="style.css">
+    <nav>
+        <a href="../calculos/">Cálculos</a>
+        <a href="../calculadoraGPT/">Calculadora GPT</a>
+        <a href="../calcMedia/">Média</a>
+        <!-- <a href="#">###</a>
+        <a href="#">###</a> -->
+    </nav>
+</head>
+<body>
+    <h1>PRINTS DE INPUTS</h1>
+    <main>
+        <label for="i1">Insira um Texto</label>
+        <input type="text" id="i1"><br>
+
+        <label for="i2">Insira uma Cor</label>
+        <input type="color" id="i2"><br>
+
+        <label for="i3">Insira uma Data</label>
+        <input type="date" id="i3"><br>
+
+        <label for="i4">Decida se vc quer ou não</label>
+        <input type="checkbox" id="i4"><br>
+
+        <button onclick="mostrar()">Mostrar</button>
+    </main>
+
+    <div class="results">
+
+    <p id="printTexto"></p>
+    <p id="printCor"></p>
+    <p id="printData"></p>
+    <p id="printCheckbox"></p>
+    <p></p>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
